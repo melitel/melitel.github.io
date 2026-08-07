@@ -10,6 +10,11 @@
     const languageButtons = document.querySelectorAll('[data-set-lang]');
     const translatedItems = document.querySelectorAll('[data-uk][data-en]');
 
+    const localizedImages =
+        document.querySelectorAll(
+            '[data-src-uk][data-src-en]'
+        );
+
     const titles = {
         home: {
             uk: 'Melitel Apps — застосунки та ігри',
@@ -223,6 +228,32 @@
             element.textContent = element.dataset[lang];
         });
 
+        localizedImages.forEach(image => {
+
+            const src =
+                lang === 'en'
+                    ? image.dataset.srcEn
+                    : image.dataset.srcUk;
+
+            const alt =
+                lang === 'en'
+                    ? image.dataset.altEn
+                    : image.dataset.altUk;
+
+
+            if (
+                src &&
+                image.getAttribute('src') !== src
+            ) {
+                image.src = src;
+            }
+
+
+            if (alt) {
+                image.alt = alt;
+            }
+
+        });
 
         languageButtons.forEach(button => {
             const active =
