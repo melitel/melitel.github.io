@@ -1,0 +1,995 @@
+<!doctype html>
+<html lang="uk">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="theme-color" content="#fbfaf7">
+    <meta name="description"
+          content="Політика конфіденційності мобільного застосунку «Математика: множення, ділення» / “Mental Math: multiply, divide” від Melitel (Melitel Apps).">
+
+    <meta property="og:title"
+          content="Математика: множення, ділення — Політика конфіденційності">
+    <meta property="og:description"
+          content="Інформація про локальне зберігання даних, озвучування, рекламу Google AdMob та конфіденційність у застосунку «Математика: множення, ділення».">
+    <meta property="og:type" content="website">
+
+    <title>Математика: множення, ділення — Політика конфіденційності</title>
+
+    <!-- Shared site styles. Keep this path if the privacy page is placed
+         at the same nesting level as your current privacy page. -->
+    <link rel="stylesheet" href="../styles.css">
+
+    <style>
+        /* =====================================================
+           Privacy policy page
+           ===================================================== */
+
+        :root {
+            --paper: #fbfaf7;
+            --ink: #20242b;
+            --muted: #626975;
+            --line: #e2e5e9;
+            --accent: #3b6fb6;
+            --serif: Georgia, "Times New Roman", serif;
+            --sans: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+                    "Segoe UI", sans-serif;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            background: var(--paper);
+            color: var(--ink);
+            font-family: var(--sans);
+            line-height: 1.65;
+        }
+
+        .section {
+            padding: 56px 20px 72px;
+        }
+
+        .container {
+            width: min(100%, 920px);
+            margin: 0 auto;
+        }
+
+        .privacy-wrapper {
+            max-width: 920px;
+        }
+
+        .privacy-toolbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 20px;
+            margin-bottom: 34px;
+        }
+
+        .back-link {
+            color: var(--ink);
+            text-decoration: none;
+            font-weight: 700;
+        }
+
+        .back-link:hover {
+            text-decoration: underline;
+            text-underline-offset: 3px;
+        }
+
+        .privacy-lang-switch {
+            display: flex;
+            padding: 4px;
+            border: 1px solid var(--line);
+            border-radius: 999px;
+            background: var(--paper);
+        }
+
+        .privacy-lang-button {
+            border: 0;
+            padding: 7px 12px;
+            border-radius: 999px;
+            background: transparent;
+            color: var(--muted);
+            font-size: 0.78rem;
+            font-weight: 800;
+            cursor: pointer;
+        }
+
+        .privacy-lang-button.is-active {
+            background: var(--ink);
+            color: var(--paper);
+        }
+
+        .privacy-header {
+            margin-bottom: 50px;
+        }
+
+        .kicker {
+            display: inline-block;
+            color: var(--accent);
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            font-size: 0.78rem;
+        }
+
+        .privacy-header h1 {
+            margin: 12px 0 20px;
+            font: 600 clamp(2.5rem, 6vw, 5rem) / 0.98 var(--serif);
+            letter-spacing: -0.045em;
+        }
+
+        .privacy-header p {
+            margin: 8px 0;
+            color: var(--muted);
+            font-size: 1.05rem;
+        }
+
+        .privacy-content {
+            font-size: 1rem;
+        }
+
+        .privacy-content section {
+            margin: 0 0 46px;
+        }
+
+        .privacy-content h2 {
+            margin: 0 0 16px;
+            font: 600 clamp(1.55rem, 3vw, 2.15rem) / 1.15 var(--serif);
+        }
+
+        .privacy-content p {
+            margin: 0 0 14px;
+            color: var(--muted);
+        }
+
+        .privacy-content ul {
+            margin: 14px 0 18px;
+            padding-left: 24px;
+            color: var(--muted);
+        }
+
+        .privacy-content li {
+            margin: 7px 0;
+        }
+
+        .privacy-content a {
+            color: inherit;
+            text-decoration-thickness: 1px;
+            text-underline-offset: 3px;
+        }
+
+        .notice {
+            padding: 20px 22px;
+            border: 1px solid var(--line);
+            border-radius: 18px;
+            background: rgba(255, 255, 255, 0.55);
+        }
+
+        .privacy-note {
+            margin: 28px 0 46px;
+        }
+
+        [data-policy-lang] {
+            display: none;
+        }
+
+        [data-policy-lang].is-active {
+            display: block;
+        }
+
+        @media (max-width: 620px) {
+            .section {
+                padding: 34px 18px 56px;
+            }
+
+            .privacy-toolbar {
+                align-items: flex-start;
+                flex-direction: column;
+            }
+
+            .privacy-header h1 {
+                font-size: 2.55rem;
+            }
+        }
+    </style>
+</head>
+
+<body class="app-page theme-math">
+    <main class="section">
+        <div class="container privacy-wrapper">
+
+            <!-- =================================================
+                 Navigation
+                 ================================================= -->
+
+            <div class="privacy-toolbar">
+                <a class="back-link" href="../apps/mental-math/">
+                    ← Математика: множення, ділення
+                </a>
+
+                <div class="privacy-lang-switch"
+                     aria-label="Language">
+
+                    <button type="button"
+                            class="privacy-lang-button is-active"
+                            data-set-policy-lang="uk"
+                            aria-pressed="true">
+                        UA
+                    </button>
+
+                    <button type="button"
+                            class="privacy-lang-button"
+                            data-set-policy-lang="en"
+                            aria-pressed="false">
+                        EN
+                    </button>
+                </div>
+            </div>
+
+            <!-- =================================================
+                 Ukrainian
+                 ================================================= -->
+
+            <div data-policy-lang="uk" class="is-active">
+                <header class="privacy-header">
+                    <span class="kicker">Політика конфіденційності</span>
+
+                    <h1>Математика: множення, ділення</h1>
+
+                    <p>
+                        <strong>Останнє оновлення: 25.09.2026</strong>
+                    </p>
+
+                    <p>
+                        Ця Політика конфіденційності пояснює, як мобільний
+                        застосунок <strong>«Математика: множення, ділення»</strong>
+                        (англійська назва — <strong>“Mental Math: multiply, divide”</strong>)
+                        обробляє інформацію користувачів.
+                    </p>
+
+                    <p>
+                        Розробник застосунку —
+                        <strong>Melitel (Melitel Apps)</strong>.
+                        Застосунок призначений для тренування усного рахунку
+                        та розв’язування математичних завдань.
+                    </p>
+                </header>
+
+                <div class="privacy-content">
+
+                    <section>
+                        <h2>1. Інформація, яку ми не запитуємо</h2>
+
+                        <p>
+                            Застосунок не вимагає створення облікового запису
+                            і не просить користувача повідомляти особисті дані.
+                        </p>
+
+                        <p>Ми безпосередньо не запитуємо та не збираємо:</p>
+
+                        <ul>
+                            <li>ім’я та прізвище;</li>
+                            <li>адресу електронної пошти;</li>
+                            <li>номер телефону;</li>
+                            <li>домашню адресу;</li>
+                            <li>точну геолокацію;</li>
+                            <li>платіжні реквізити;</li>
+                            <li>контакти користувача;</li>
+                            <li>фотографії, відео або файли користувача.</li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <h2>2. Дані, що зберігаються на пристрої</h2>
+
+                        <p>
+                            Частина інформації, потрібної для роботи застосунку,
+                            зберігається локально на пристрої користувача.
+                        </p>
+
+                        <p>До неї можуть належати:</p>
+
+                        <ul>
+                            <li>обрана мова;</li>
+                            <li>обраний рівень складності;</li>
+                            <li>обраний режим тренування;</li>
+                            <li>кількість правильних відповідей і спроб;</li>
+                            <li>поточна та найкраща серія правильних відповідей;</li>
+                            <li>статистика точності;</li>
+                            <li>інші налаштування інтерфейсу та навчання.</li>
+                        </ul>
+
+                        <p>
+                            Ці дані використовуються для роботи функцій застосунку
+                            та збереження прогресу на пристрої.
+                            Вони не містять імені, електронної пошти
+                            або номера телефону користувача.
+                        </p>
+
+                        <p>
+                            Користувач може видалити локальні дані,
+                            очистивши дані застосунку в налаштуваннях пристрою
+                            або видаливши застосунок.
+                        </p>
+                    </section>
+
+                    <section>
+                        <h2>3. Озвучування завдань</h2>
+
+                        <p>
+                            Для озвучування тексту математичних завдань
+                            застосунок може використовувати системний
+                            механізм перетворення тексту на мовлення
+                            (Text-to-Speech, TTS), встановлений на пристрої.
+                        </p>
+
+                        <p>
+                            Текст, який потрібно озвучити, передається
+                            вибраному користувачем або системою TTS-механізму.
+                            Залежно від конкретного TTS-сервісу та його налаштувань,
+                            обробка може виконуватися безпосередньо на пристрої
+                            або сервісом відповідного постачальника.
+                        </p>
+
+                        <p>
+                            Ми не отримуємо від TTS-сервісу ім’я,
+                            електронну пошту чи номер телефону користувача
+                            і не використовуємо текст озвучуваних завдань
+                            для створення профілю користувача.
+                        </p>
+                    </section>
+
+                    <section>
+                        <h2>4. Реклама</h2>
+
+                        <p>
+                            У застосунку може відображатися реклама
+                            за допомогою <strong>Google AdMob</strong>,
+                            сервісу компанії Google LLC.
+                        </p>
+
+                        <p>
+                            Google AdMob та його рекламні партнери
+                            можуть автоматично обробляти технічну
+                            інформацію, необхідну для показу реклами,
+                            вимірювання її ефективності, безпеки
+                            та запобігання шахрайству. Це може включати:
+                        </p>
+
+                        <ul>
+                            <li>рекламні ідентифікатори, якщо вони доступні;</li>
+                            <li>IP-адресу та приблизне місцезнаходження;</li>
+                            <li>інформацію про пристрій і операційну систему;</li>
+                            <li>мову та налаштування пристрою;</li>
+                            <li>інформацію про покази реклами;</li>
+                            <li>натискання та інші взаємодії з рекламою;</li>
+                            <li>діагностичну та службову інформацію;</li>
+                            <li>дані, необхідні для запобігання шахрайству та зловживанням.</li>
+                        </ul>
+
+                        <p>
+                            Залежно від регіону, віку користувача,
+                            налаштувань пристрою, отриманої згоди
+                            та конфігурації рекламних сервісів
+                            реклама може бути персоналізованою
+                            або неперсоналізованою.
+                        </p>
+
+                        <p>
+                            Ми не передаємо Google AdMob ім’я,
+                            електронну пошту чи номер телефону користувача.
+                        </p>
+
+                        <p>
+                            Докладніше:
+                            <a href="https://policies.google.com/privacy"
+                               target="_blank"
+                               rel="noopener">Політика конфіденційності Google</a>
+                            та
+                            <a href="https://policies.google.com/technologies/ads"
+                               target="_blank"
+                               rel="noopener">Google — Advertising</a>.
+                        </p>
+                    </section>
+
+                    <section>
+                        <h2>5. Передавання та зберігання даних</h2>
+
+                        <p>
+                            Ми не продаємо особисту інформацію користувачів.
+                        </p>
+
+                        <p>
+                            Дані, що зберігаються локально, залишаються
+                            на пристрої до їх очищення користувачем
+                            або видалення застосунку.
+                        </p>
+
+                        <p>
+                            Технічна та рекламна інформація, яку обробляє
+                            Google AdMob, може передаватися Google LLC
+                            і постачальникам послуг, яких Google залучає
+                            для роботи своїх сервісів.
+                            Строки зберігання таких даних визначаються
+                            налаштуваннями та політиками відповідних сервісів Google.
+                        </p>
+                    </section>
+
+                    <section>
+                        <h2>6. Інтернет-з’єднання</h2>
+
+                        <p>
+                            Основні математичні вправи можуть працювати
+                            без постійного підключення до Інтернету.
+                        </p>
+
+                        <p>Інтернет-з’єднання може використовуватися для:</p>
+
+                        <ul>
+                            <li>завантаження та показу реклами;</li>
+                            <li>роботи стороннього TTS-сервісу, якщо він потребує мережі;</li>
+                            <li>взаємодії з іншими сервісами Google, необхідними для роботи реклами.</li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <h2>7. Безпека даних</h2>
+
+                        <p>
+                            Ми прагнемо мінімізувати обсяг даних,
+                            що обробляються застосунком,
+                            і не вимагаємо створення облікового запису.
+                        </p>
+
+                        <p>
+                            Передавання даних стороннім сервісам
+                            виконується через їхні стандартні захищені
+                            мережеві механізми. Водночас жоден спосіб
+                            електронного передавання або зберігання даних
+                            не може гарантувати абсолютну безпеку.
+                        </p>
+                    </section>
+
+                    <section>
+                        <h2>8. Конфіденційність дітей</h2>
+
+                        <p>
+                            Застосунок має навчальне призначення
+                            і може використовуватися дітьми.
+                            Він не вимагає створення облікового запису
+                            та не просить дітей повідомляти ім’я,
+                            адресу, електронну пошту, номер телефону
+                            або інші прямі контактні дані.
+                        </p>
+
+                        <p>
+                            Сторонні сервіси, зокрема Google AdMob
+                            і вибраний на пристрої TTS-механізм,
+                            можуть обробляти технічні дані відповідно
+                            до власних політик конфіденційності,
+                            налаштувань пристрою та застосовного законодавства.
+                        </p>
+
+                        <p>
+                            Якщо батько, мати або законний представник
+                            вважає, що через застосунок неналежним чином
+                            були передані особисті дані дитини,
+                            він може зв’язатися з нами для розгляду питання.
+                        </p>
+                    </section>
+
+                    <section>
+                        <h2>9. Права та вибір користувача</h2>
+
+                        <p>Користувач може:</p>
+
+                        <ul>
+                            <li>керувати параметрами персоналізації реклами у налаштуваннях пристрою та Google-акаунта;</li>
+                            <li>скинути або видалити рекламний ідентифікатор, якщо така можливість доступна на пристрої;</li>
+                            <li>обрати або змінити TTS-механізм у налаштуваннях Android;</li>
+                            <li>очистити локальні дані застосунку;</li>
+                            <li>видалити застосунок;</li>
+                            <li>звернутися до нас із питанням щодо обробки даних.</li>
+                        </ul>
+
+                        <p>
+                            У регіонах, де цього вимагає законодавство,
+                            користувачеві можуть надаватися додаткові
+                            засоби керування згодою на рекламу
+                            та обробку даних.
+                        </p>
+                    </section>
+
+                    <section>
+                        <h2>10. Сторонні сервіси</h2>
+
+                        <p>
+                            Застосунок може взаємодіяти з такими
+                            сторонніми сервісами:
+                        </p>
+
+                        <ul>
+                            <li>
+                                <strong>Google AdMob</strong> —
+                                для показу реклами.
+                            </li>
+                            <li>
+                                <strong>Системний або встановлений TTS-механізм</strong> —
+                                для озвучування тексту математичних завдань.
+                            </li>
+                        </ul>
+
+                        <p>
+                            Політики та умови таких сервісів
+                            встановлюються їхніми постачальниками.
+                        </p>
+                    </section>
+
+                    <section>
+                        <h2>11. Зміни до Політики конфіденційності</h2>
+
+                        <p>
+                            Ми можемо періодично оновлювати цю Політику,
+                            наприклад після додавання нових функцій,
+                            зміни сторонніх сервісів або вимог законодавства.
+                        </p>
+
+                        <p>
+                            Дата останнього оновлення зазначається
+                            на початку документа.
+                        </p>
+                    </section>
+
+                    <section>
+                        <h2>12. Зв’язок із нами</h2>
+
+                        <p>
+                            Якщо у вас є питання щодо цієї
+                            Політики конфіденційності
+                            або обробки даних, зв’яжіться з нами:
+                        </p>
+
+                        <div class="notice privacy-note">
+                            <strong>Melitel (Melitel Apps)</strong>
+
+                            <p>
+                                Email:
+                                <a href="mailto:melitel.avatar@gmail.com">
+                                    melitel.avatar@gmail.com
+                                </a>
+                            </p>
+                        </div>
+                    </section>
+
+                </div>
+            </div>
+
+            <!-- =================================================
+                 English
+                 ================================================= -->
+
+            <div data-policy-lang="en">
+                <header class="privacy-header">
+                    <span class="kicker">Privacy Policy</span>
+
+                    <h1>Mental Math: multiply, divide</h1>
+
+                    <p>
+                        <strong>Last updated: September 25, 2026</strong>
+                    </p>
+
+                    <p>
+                        This Privacy Policy explains how the mobile application
+                        <strong>“Mental Math: multiply, divide”</strong>
+                        (Ukrainian title —
+                        <strong>«Математика: множення, ділення»</strong>)
+                        handles user information.
+                    </p>
+
+                    <p>
+                        The application is developed by
+                        <strong>Melitel (Melitel Apps)</strong>.
+                        The application is designed for practicing mental math
+                        and solving mathematics exercises.
+                    </p>
+                </header>
+
+                <div class="privacy-content">
+
+                    <section>
+                        <h2>1. Information we do not request</h2>
+
+                        <p>
+                            The application does not require users
+                            to create an account and does not ask
+                            users to provide personal information.
+                        </p>
+
+                        <p>We do not directly request or collect:</p>
+
+                        <ul>
+                            <li>first or last name;</li>
+                            <li>email address;</li>
+                            <li>phone number;</li>
+                            <li>home address;</li>
+                            <li>precise location;</li>
+                            <li>payment information;</li>
+                            <li>user contacts;</li>
+                            <li>user photos, videos, or files.</li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <h2>2. Data stored on the device</h2>
+
+                        <p>
+                            Some information required for the application's
+                            functionality is stored locally on the user's device.
+                        </p>
+
+                        <p>This may include:</p>
+
+                        <ul>
+                            <li>selected language;</li>
+                            <li>selected difficulty level;</li>
+                            <li>selected practice mode;</li>
+                            <li>number of correct answers and attempts;</li>
+                            <li>current and best correct-answer streak;</li>
+                            <li>accuracy statistics;</li>
+                            <li>other interface and learning settings.</li>
+                        </ul>
+
+                        <p>
+                            This information is used to provide
+                            application features and preserve progress
+                            on the device. It does not contain the user's
+                            name, email address, or phone number.
+                        </p>
+
+                        <p>
+                            Users can remove locally stored data
+                            by clearing the application's data
+                            in device settings or by uninstalling the application.
+                        </p>
+                    </section>
+
+                    <section>
+                        <h2>3. Text-to-Speech</h2>
+
+                        <p>
+                            To read mathematics problems aloud,
+                            the application may use the system
+                            Text-to-Speech (TTS) engine installed on the device.
+                        </p>
+
+                        <p>
+                            Text that needs to be spoken is passed
+                            to the TTS engine selected by the user
+                            or the operating system. Depending on the specific
+                            TTS service and its settings, processing may occur
+                            directly on the device or through the provider's service.
+                        </p>
+
+                        <p>
+                            We do not receive the user's name,
+                            email address, or phone number from the TTS service,
+                            and we do not use the spoken problem text
+                            to create a user profile.
+                        </p>
+                    </section>
+
+                    <section>
+                        <h2>4. Advertising</h2>
+
+                        <p>
+                            The application may display advertising
+                            through <strong>Google AdMob</strong>,
+                            a service provided by Google LLC.
+                        </p>
+
+                        <p>
+                            Google AdMob and its advertising partners
+                            may automatically process technical information
+                            necessary to serve advertising, measure performance,
+                            provide security, and prevent fraud. This may include:
+                        </p>
+
+                        <ul>
+                            <li>advertising identifiers, where available;</li>
+                            <li>IP address and approximate location;</li>
+                            <li>device and operating system information;</li>
+                            <li>device language and settings;</li>
+                            <li>advertising impression data;</li>
+                            <li>clicks and other interactions with advertisements;</li>
+                            <li>diagnostic and service information;</li>
+                            <li>information required for fraud prevention and abuse detection.</li>
+                        </ul>
+
+                        <p>
+                            Depending on the user's region, age,
+                            device settings, consent choices,
+                            and advertising service configuration,
+                            advertisements may be personalized
+                            or non-personalized.
+                        </p>
+
+                        <p>
+                            We do not provide Google AdMob
+                            with the user's name, email address,
+                            or phone number.
+                        </p>
+
+                        <p>
+                            More information:
+                            <a href="https://policies.google.com/privacy"
+                               target="_blank"
+                               rel="noopener">Google Privacy Policy</a>
+                            and
+                            <a href="https://policies.google.com/technologies/ads"
+                               target="_blank"
+                               rel="noopener">Google — Advertising</a>.
+                        </p>
+                    </section>
+
+                    <section>
+                        <h2>5. Data sharing and retention</h2>
+
+                        <p>
+                            We do not sell users' personal information.
+                        </p>
+
+                        <p>
+                            Locally stored application data remains
+                            on the device until the user clears the data
+                            or uninstalls the application.
+                        </p>
+
+                        <p>
+                            Technical and advertising information processed
+                            by Google AdMob may be transmitted to Google LLC
+                            and service providers used by Google
+                            to operate its services.
+                            Retention periods for such information
+                            are determined by the settings and policies
+                            of the relevant Google services.
+                        </p>
+                    </section>
+
+                    <section>
+                        <h2>6. Internet connection</h2>
+
+                        <p>
+                            Core mathematics exercises may work
+                            without a continuous Internet connection.
+                        </p>
+
+                        <p>An Internet connection may be used for:</p>
+
+                        <ul>
+                            <li>loading and displaying advertisements;</li>
+                            <li>operation of a third-party TTS service if it requires network access;</li>
+                            <li>other Google services required for advertising functionality.</li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <h2>7. Data security</h2>
+
+                        <p>
+                            We aim to minimize the amount of data
+                            processed by the application
+                            and do not require users to create an account.
+                        </p>
+
+                        <p>
+                            Data transmission to third-party services
+                            uses their standard secure network mechanisms.
+                            However, no method of electronic transmission
+                            or storage can guarantee absolute security.
+                        </p>
+                    </section>
+
+                    <section>
+                        <h2>8. Children's privacy</h2>
+
+                        <p>
+                            The application is educational
+                            and may be used by children.
+                            It does not require an account
+                            and does not ask children to provide
+                            a name, address, email address, phone number,
+                            or other direct contact information.
+                        </p>
+
+                        <p>
+                            Third-party services, including Google AdMob
+                            and the TTS engine selected on the device,
+                            may process technical information
+                            according to their own privacy policies,
+                            device settings, and applicable law.
+                        </p>
+
+                        <p>
+                            If a parent or legal guardian believes
+                            that a child's personal information
+                            has been transmitted improperly through the application,
+                            please contact us so that we can review the issue.
+                        </p>
+                    </section>
+
+                    <section>
+                        <h2>9. User rights and choices</h2>
+
+                        <p>Users may:</p>
+
+                        <ul>
+                            <li>manage advertising personalization through device and Google Account settings;</li>
+                            <li>reset or delete the advertising identifier where supported by the device;</li>
+                            <li>select or change the TTS engine in Android settings;</li>
+                            <li>clear locally stored application data;</li>
+                            <li>uninstall the application;</li>
+                            <li>contact us with questions regarding data processing.</li>
+                        </ul>
+
+                        <p>
+                            In regions where required by law,
+                            users may be provided with additional controls
+                            regarding consent for advertising
+                            and data processing.
+                        </p>
+                    </section>
+
+                    <section>
+                        <h2>10. Third-party services</h2>
+
+                        <p>
+                            The application may interact with
+                            the following third-party services:
+                        </p>
+
+                        <ul>
+                            <li>
+                                <strong>Google AdMob</strong> —
+                                for displaying advertisements.
+                            </li>
+                            <li>
+                                <strong>System or installed TTS engine</strong> —
+                                for reading mathematics problem text aloud.
+                            </li>
+                        </ul>
+
+                        <p>
+                            The policies and terms of these services
+                            are established by their respective providers.
+                        </p>
+                    </section>
+
+                    <section>
+                        <h2>11. Changes to this Privacy Policy</h2>
+
+                        <p>
+                            We may update this Privacy Policy from time to time,
+                            for example when adding new features,
+                            changing third-party services,
+                            or responding to legal requirements.
+                        </p>
+
+                        <p>
+                            The date of the latest update
+                            is shown at the beginning of this document.
+                        </p>
+                    </section>
+
+                    <section>
+                        <h2>12. Contact us</h2>
+
+                        <p>
+                            If you have any questions about this Privacy Policy
+                            or how data is processed, please contact us:
+                        </p>
+
+                        <div class="notice privacy-note">
+                            <strong>Melitel (Melitel Apps)</strong>
+
+                            <p>
+                                Email:
+                                <a href="mailto:melitel.avatar@gmail.com">
+                                    melitel.avatar@gmail.com
+                                </a>
+                            </p>
+                        </div>
+                    </section>
+
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- =====================================================
+         Language switch
+         ===================================================== -->
+
+    <script>
+        (() => {
+            const STORAGE_KEY = "mental-math-privacy-language";
+
+            const buttons =
+                document.querySelectorAll("[data-set-policy-lang]");
+
+            const pages =
+                document.querySelectorAll("[data-policy-lang]");
+
+            const backLink =
+                document.querySelector(".privacy-toolbar .back-link");
+
+            function setLanguage(lang) {
+                lang = lang === "en" ? "en" : "uk";
+
+                document.documentElement.lang = lang;
+
+                pages.forEach(page => {
+                    page.classList.toggle(
+                        "is-active",
+                        page.dataset.policyLang === lang
+                    );
+                });
+
+                buttons.forEach(button => {
+                    const active =
+                        button.dataset.setPolicyLang === lang;
+
+                    button.classList.toggle("is-active", active);
+                    button.setAttribute("aria-pressed", String(active));
+                });
+
+                if (backLink) {
+                    backLink.textContent =
+                        lang === "en"
+                            ? "← Mental Math: multiply, divide"
+                            : "← Математика: множення, ділення";
+                }
+
+                document.title =
+                    lang === "en"
+                        ? "Mental Math: multiply, divide — Privacy Policy"
+                        : "Математика: множення, ділення — Політика конфіденційності";
+
+                try {
+                    localStorage.setItem(STORAGE_KEY, lang);
+                } catch (_) {
+                    // localStorage may be unavailable.
+                }
+            }
+
+            let initialLanguage = "uk";
+
+            try {
+                const savedLanguage =
+                    localStorage.getItem(STORAGE_KEY);
+
+                if (
+                    savedLanguage === "uk" ||
+                    savedLanguage === "en"
+                ) {
+                    initialLanguage = savedLanguage;
+                }
+            } catch (_) {
+                // localStorage may be unavailable.
+            }
+
+            buttons.forEach(button => {
+                button.addEventListener("click", () => {
+                    setLanguage(button.dataset.setPolicyLang);
+                });
+            });
+
+            setLanguage(initialLanguage);
+        })();
+    </script>
+</body>
+</html>
